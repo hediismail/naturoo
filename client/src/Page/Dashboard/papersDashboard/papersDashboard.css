@@ -1,0 +1,80 @@
+.dash-img{
+    width: 100px;
+    height: 70px;
+}
+.paper-dash{
+    font-size: small;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 1px;
+    margin-right: 1px;
+    text-align: center;
+    justify-content: center;
+}
+.dash-titr{
+  width: 250px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.dash-titr-catégo{
+    width: 30px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.dash-titr-op{
+    width: 100px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+ .dash-titr-id{
+    width: 20px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.dash-titr-titr{
+    width: 150px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.dash-titr-cont{
+    width: 150px;
+    margin-left: 3px;
+    margin-right: 3px;
+} 
+.dash-titr-img{
+    width: 50px;
+}
+.table-sm{
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.dash-paper-delete{
+   color:red;
+   background-color: transparent;
+   width: 50px;
+   margin-top: 15px;
+}
+.dash-paper-edit{
+    color:royalblue !important;
+    background-color: transparent;
+    width: 50px;
+    margin-top: -40px;
+}
+.dash-paper-editt{
+    margin-top: 10px !important;
+    width: 50px !important;
+    background-color: transparent;
+
+}
+Button{
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 550px) {
+    .media {
+      width: 46%;
+    }
+  }

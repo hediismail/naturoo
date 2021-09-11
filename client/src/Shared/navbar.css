@@ -1,0 +1,314 @@
+/****************** NATUROPATHIE *****************/
+
+.bigTitle{
+
+margin-top: 5px;
+font-family: Red Rose;
+color: #05563E;
+}
+
+/*********************************************** Navbar *****************************/
+
+    .navbar {
+        position: relative;
+        transition: .5s;
+        z-index: 999;
+        margin-left: 60px;
+        margin-right: 60px;
+      }
+      .navbar-nav{
+        margin-top: 60px;
+        text-align: center;
+    
+      }
+      .navbar.nav-sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+      }
+      
+      .navbar .navbar-brand {
+        margin: 0;
+        font-size: 45px;
+        line-height: 0px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        /* transition: .5s; */
+        
+      }
+      .nav-item{
+     
+          margin-right: 15px !important;
+          margin-left: 15px !important;
+          color: #05563E !important;
+          font-size: x-large !important;
+          font-family:Georgia, 'Times New Roman', Times, serif!important;
+          justify-content: space-evenly !important;
+          
+      }
+     
+     
+      .fraze{
+          margin-top: 140px;
+          color: #84c2a1;
+          text-align: center;
+          font-family:'Times New Roman', Times, serif !important;
+      }
+      .fraze2{
+        margin-top: 100px !important;
+        margin-bottom: 35px;
+        color: #05563E;
+        font-family:'Times New Roman', Times, serif!important;
+      }
+
+/************************ page1 ************************************/
+
+
+
+    /************ Home page ******************/
+
+
+
+.rectangle{
+
+height: 350px !important; 
+margin-bottom: 0px;
+background: #328B70; 
+margin-top: -250px;
+margin-right: 0px;
+margin-left: 0px;
+padding-left: 0px;
+padding-right: 0px;
+/* margin-bottom: -1000px;
+padding-bottom: 0px; */
+
+}
+.image1{
+    margin-top: 60px;
+    margin-left: 300px;
+}
+.noservices{
+  color: black;
+  font-size: xx-large;
+  margin-top: 1100px;
+  position:center;
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+   /********* Crads ********/
+   .total-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin-top: 80px;
+    
+   }
+   .card{
+ 
+width: 250px;
+height:150px;
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 25px;
+
+background: #05563E;
+
+   } 
+   .card-imag{
+    width: 250px;
+    height: 250px;
+    border: solid;
+    border-color: #05563E;
+
+   }
+   .card-text{
+     font-weight: normal;
+     font-family: 'Courier New', Courier, monospace;
+     margin-top: -50px;
+     background-color: #05563E;
+     height: 50px;
+     color:#fff;
+     font-family: 'Courier New', Courier, monospace;
+
+       /* transform: matrix(1, 0, 0, 1, 0, 0);  */
+   }
+   .deco{
+     background-color: #05563E;
+     width: 250px;
+     height: 90px;
+     margin-top: -250px;
+     /* clip-path: polygon(0 0, 0 100%, 100% 100%,100% 0, 50% 50%); */
+     clip-path: polygon( 0 0, 0 100%,50% 50%, 100% 100%,100% 0);
+    
+   }
+   
+
+/* **************************Contact ******************************/
+.cadre{
+background-color: #05563E;
+width: 1220px;
+height: 444px;
+margin-left: 30px;
+margin-right: 50px !important;
+padding-right: 20px;
+margin-top: 200px;
+display: flex;
+
+} 
+.consulta{
+  color:#fff;
+  margin-left: 30px;
+}
+.paragraf1{
+ text-align:start;
+ margin-left: 40px;
+ margin-left: -10px !important;
+ margin-right: auto;
+ width: 400px;
+ font-family: 'Times New Roman', Times, serif;
+ font-size:large;
+}
+.paragraf2{
+  text-align:start;
+ /* margin-left: 40px; */
+ margin-left: -300px !important;
+ margin-right: 70px;
+ 
+ color: #fff;
+ font-family: 'Times New Roman', Times, serif;
+ font-size:  15px;;
+ width: 1050px;
+
+}
+h6{
+  color:peru;
+  padding-top: 20px;
+  font-family: serif;
+ text-align: start;
+ 
+}
+.hh6{
+  color:peru;
+  padding-top: 20px;
+  font-family: serif;
+  margin-left: 350px;
+  text-align: start;
+  
+}
+.nat{
+  width: 400px;
+  margin-left: 350px;
+}
+.treemen{
+  padding-left: 50px;
+  margin-right: 50px;
+  width: 350px;
+  height: 444px;
+}
+/* .nousommes{
+  list-style: none;
+  color: #fff !important;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+  margin-left: 20px;
+  align-content: flex-start;
+} */
+.contacter-nous{
+  display: grid;
+ margin-right: 50px;
+}
+.contactnous{
+  color: #fff;
+  margin-right: 150px;
+}
+.contact{
+  color: #fff;
+  width: 750px;
+  display: flex;
+  flex-wrap:wrap;
+  margin-right: 150px;
+
+}
+.h4{
+  margin-left: 250px;
+}
+/* .footerrr{
+  background-color:  #05563E;
+  font-size:large;
+  margin-top: 50px;
+} */
+
+.parag1{
+  color: black;
+  font-size: xx-large;
+  font-family: fantasy;
+  margin-bottom: 0px;
+  margin-top: 60px;
+  width: 750px;
+}
+
+
+
+
+/******* respensive ****/
+@media (max-width: 550px) {
+  .card-phyto {
+    width: 50%;
+    justify-content: center;
+   
+  }
+  .rectangle{
+    width: 100%;
+    justify-content: center;
+    margin-right: 0px;
+  }
+  .nav-item{
+    width: 50%;
+    font-size: 50%;
+   margin: 0px;
+  }
+
+ 
+
+}
+
+@media (max-width: 990px) {
+  
+  .card-phyto {
+    width: 100%;
+  
+  }
+  .rectangle{height: 1250px; 
+margin-bottom: 0px;
+background: #328B70; 
+margin-top: -250px;
+margin-right: 0px;
+margin-left: 0px;
+padding-left: 0px;
+padding-right: 0px;
+margin-bottom: -1000px;
+padding-bottom: 0px;
+  }
+ 
+  .nav-item{
+  display: none;
+  }
+  
+  
+  
+ }
+ @media only screen and (min-width:768){
+  .card-phyto {
+    width: 100% !important;
+  
+  }
+ }
+ @media only screen and (min-width: 450px)
+ {
+  .card-phyto {
+    width: 100% !important;
+  
+  }
+ }

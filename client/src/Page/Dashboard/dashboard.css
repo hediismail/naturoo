@@ -1,0 +1,41 @@
+.sideBar{
+    margin-top: 0px;
+    position:fixed; 
+    background-color: #75fcd3;
+    opacity: 90%;
+    height: 635px;
+    margin-left: 1090px !important;
+}
+.titre-dash{
+    font-size :14.5px;
+    font-weight: bold;
+    font-family:cursive;
+    color: #05563E;
+    margin-bottom: 50px;
+}
+
+.bouton-dash{
+    margin-top: 180px;
+    background-color: #05563E;
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    border-radius: 10px;
+
+}
+.flex-column{
+  text-align: start;
+  color: rgb(206, 165, 165) !important;
+  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 30px;
+  /* align-content: space-between; */
+  
+}
+/*************** first page****/
+.welcom-dash{
+    color: black;
+    font-family: fantasy;
+    margin-top: 250px;
+}
+

@@ -1,0 +1,54 @@
+.my-modal {
+    width: 97vw ;   /* Occupy the 90% of the screen width */
+    max-width: 97vw;
+    height: 20vw;
+} 
+ .imagearpop{
+  justify-items: end;
+} 
+.navModal{
+   position: center;
+}
+.parag-phytoM{
+   color: black;
+   margin-top: 0px;
+}
+.title-phytoM{
+    margin-top: 500px;
+}
+.modal-M{
+    margin-top: -700px;
+}
+.prix-modalBoutik{
+    margin-top: 10px;
+    color: blanchedalmond !important;
+    margin-top: 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+}
+.Rating-modal{
+    font-size:xx-large;
+    margin-left: 100px !important;
+
+  
+}
+.iconPanierModale{
+    font-size: larger;
+    background-color: rgb(17, 83, 61);
+    color: #fff;
+    margin-left: 50px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 170px;
+}
+.iconPanierModale:hover{
+    color: aqua;
+    cursor: pointer;
+  
+}
+
+@media (max-width: 550px) {
+    .media {
+      width: 46%;
+    }
+  }

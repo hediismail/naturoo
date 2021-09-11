@@ -1,0 +1,187 @@
+/****************** NATUROPATHIE *****************/
+
+
+.bigTitle{
+
+    margin-top: 5px;
+    font-family: Red Rose;
+    color: #05563E;
+   text-align: center;
+  
+    }
+    /*********************************************** Navbar *****************************/
+    
+        .navbar {
+            position: relative;
+            transition: .5s;
+            z-index: 999;
+            margin-left: 80px;
+            margin-right: 80px;
+          }
+          
+          .navbar.nav-sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+          }
+          
+          .navbar .navbar-brand {
+            margin: 0;
+            font-size: 45px;
+            line-height: 0px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            transition: .5s;
+            
+          }
+          .nav-item{
+              margin-right: 15px;
+              margin-left: 15px;
+              color: #05563E !important;
+              font-size: large;
+              font-family: 'Courier New', Courier, monospace;
+          }
+          .fraze{
+              margin-top: -140px;
+              font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          }
+          .fraze2{
+            margin-top: 100px;
+            margin-bottom: 35px;
+            text-align: center;
+            color: #05563E;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          }
+        
+    /************************ page1 ************************************/
+    
+    
+    
+        /************ Home page ******************/
+    
+    
+    
+    .rectangle{
+    
+    height: 1250px; 
+    margin-bottom: 0px;
+    background: #328B70; 
+    margin-top: -250px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: -1000px;
+    padding-bottom: 0px;
+    
+    }
+    
+
+       
+    
+    .contacter-nous{
+      display: grid;
+     margin-right: 50px;
+    }
+    .contactnous{
+      color: #fff;
+      margin-right: 150px;
+    }
+    .contact{
+      color: #fff;
+      width: 750px;
+      display: flex;
+      flex-wrap:wrap;
+      margin-right: 150px;
+    
+    }
+    .h4{
+      margin-left: 250px;
+    }
+    .footerrr{
+      background-color:  #05563E;
+      font-size:large;
+      margin-top: 50px;
+    }
+    
+    /* .parag1{
+      color: black;
+      font-size: xx-large;
+      font-family: fantasy;
+      margin-bottom: 0px;
+      margin-top: 60px;
+    } */
+    .imageModal{
+        align-items: center;
+        width: 500px;
+        height: 350px;
+        margin-left: 380px;
+        margin-top: 150px;
+    }
+    .title-phytoM{
+        margin-top: -200px;
+        
+        font-size:xx-large;
+        text-align: center;
+    }
+    .boutonModal{
+    margin-right: 550px;
+
+    }
+    .parag-phytoModal{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: large;
+        color: black;
+        margin-left: 20px !important;
+        margin-right: 20px;
+    }
+    /***********************************************Boutique *********************************/
+    .boutik{
+     display: flex;
+     flex-wrap: wrap;
+     margin-top: -700px;
+    
+    }
+    .modal-B{
+      width: 550px;
+      margin-left: 70px;
+  
+    }
+    
+    .parag-boutikModal{
+      font-family:cursive;
+      font-size: larger;
+      color: black;
+    }
+    .text-dexcrip{
+      color: rgb(75, 189, 75);
+      font-family: monospace;
+    }
+    .box-boutik{
+      background-color: #328B70;
+      opacity: 75%;
+      width: 400px;
+   
+      margin-right: 10px;
+      margin-left: 80px;
+    
+    }
+    .title{
+      color: black;
+      text-underline-offset: none;
+    }
+    .prix-modalBoutik{
+      text-align: center;
+      color: black;
+      font-family:'Courier New', Courier, monospace;
+      font-size: large;
+      font-weight: bold;
+    }
+
+
+    @media (max-width: 550px) {
+      .media {
+        width: 46%;
+      }
+    }
